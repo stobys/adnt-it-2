@@ -50,6 +50,7 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Exception $exception)
     {
+        // die($exception -> getFile() .':'. $exception -> getLine() .' == '. $exception -> getMessage());
         return parent::render($request, $exception);
     }
 }

@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'AdientRegular';
+	src: url('../fonts/AdientSansWeb-Regular.eot');
+	src: url('../fonts/AdientSansWeb-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AdientSansWeb-Regular.woff2') format('woff2'),
+		url('../fonts/AdientSansWeb-Regular.woff') format('woff'),
+		url('../fonts/AdientSansWeb-Regular.ttf') format('truetype'),
+		url('../fonts/AdientSansWeb-Regular.svg#AdientSansWeb-Regular') format('svg');
+}
+@font-face {
+	font-family: 'AdientBold';
+	src: url('../fonts/AdientSansWeb-Bold.eot');
+	src: url('../fonts/AdientSansWeb-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AdientSansWeb-Bold.woff2') format('woff2'),
+		url('../fonts/AdientSansWeb-Bold.woff') format('woff'),
+		url('../fonts/AdientSansWeb-Bold.ttf') format('truetype'),
+		url('../fonts/AdientSansWeb-Bold.svg#AdientSansWeb-Bold') format('svg');
+}
+@font-face {
+	font-family: 'AdientLight';
+	src: url('../fonts/AdientSansWeb-Light.eot');
+	src: url('../fonts/AdientSansWeb-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AdientSansWeb-Light.woff2') format('woff2'),
+		url('../fonts/AdientSansWeb-Light.woff') format('woff'),
+		url('../fonts/AdientSansWeb-Light.ttf') format('truetype'),
+		url('../fonts/AdientSansWeb-Light.svg#AdientSansWeb-Light') format('svg');
+}
+
+body {
+  font-family: 'AdientRegular', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'AdientRegular', sans-serif;
+}
+
+.main-header .logo {
+	font-family: 'AdientBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
