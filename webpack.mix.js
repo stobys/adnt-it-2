@@ -5,13 +5,17 @@ const mix = require('laravel-mix');
 //mix.js('resources/js/app.js', 'public/js')
 //    .sass('resources/sass/app.scss', 'public/css');
 
-mix.copyDirectory('node_modules/font-awesome/fonts', 'public/assets/fonts');
+// mix.copyDirectory('node_modules/font-awesome/fonts', 'public/assets/fonts');
+mix.copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/assets/webfonts'),
+mix.copyDirectory('node_modules/flag-icon-css/flags', 'public/assets/flags'),
 mix.copyDirectory('node_modules/admin-lte/dist/img', 'public/img');
 
 // -- admin-lte
 mix.styles([
 		'node_modules/bootstrap/dist/css/bootstrap.min.css',
-		'node_modules/font-awesome/css/font-awesome.min.css',
+		// 'node_modules/font-awesome/css/font-awesome.min.css',
+		'node_modules/@fortawesome/fontawesome-free/css/all.min.css',
+		'node_modules/flag-icon-css/css/flag-icon.min.css',
 		// 'node_modules/admin-lte/dist/css/skins/_all-skins.min.css',
 		// 'node_modules/admin-lte/dist/css/skins/skin-black.min.css',
 		// 'node_modules/admin-lte/dist/css/skins/skin-black-light.min.css',
